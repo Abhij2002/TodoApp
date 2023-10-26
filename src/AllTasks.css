@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+.tasks
+{
+    position: sticky;
+    background: linear-gradient(-45deg,#571845,#25040d);
+    height: 3rem;
+    margin-left: -1rem;
+    margin-right: 0.2rem;
+    border-radius: 1.3rem;
+    margin-bottom: -2.2rem;
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    padding-top: 0.8rem;
+    font-family: 'Tilt Neon';
+    font-weight: 700;
+    width: 22rem;
+}
+.tasks .idx
+{
+    color: #848484;
+    background-color: #fff;
+    padding-left: 1rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    padding-top: 0.9rem;
+    padding-bottom: 1.1rem;
+    padding-right: 1rem;
+    border-radius: 3rem;
+    z-index: 1;
+}
+.tasks .task
+{
+    margin-left: 1rem;
+}
+.tasks span
+{
+    color: #fff;
+    position: absolute;
+}
+.up
+{
+    margin-left: 22rem;
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    border-radius: 0.5rem;
+    height: 1.8rem;
+    width: 2rem;
+    margin-top: 0.1rem;
+    cursor: pointer;
+}
+.down
+{
+    margin-top: 0.1rem;
+    margin-left: 24.5rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    height: 1.8rem;
+    width: 2rem;
+    cursor: pointer;
+}
+.edit
+{
+    margin-left: 27rem;
+    margin-top: 0.1rem;
+    height: 1.8rem;
+    width: 2rem;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    z-index: 1;
+}
+.up img{
+    height: 1.2rem;
+    width: 1.2rem;
+    
+}
+.down img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.edit img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.dots li
+{
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+}
+.dots li img
+{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.3rem;
+}
+.dots li button
+{
+    background-color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Tilt Neon';
+    clip-path: circle();
+    cursor: pointer;
+}
+.dots
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(-45deg,#571845,#25040d);
+    width: 11rem;
+    height: 4rem;
+    margin-top: -3rem;
+    margin-left: -1rem;
+    padding-left: 13rem;
+    border-radius: 1.7rem;
+}
+.none
+{
+    display: none;
+}
+.dots li
+{
+    z-index: 1;
+}
+.box
+{
+    position: absolute;
+    height: 4rem;
+    width: 3.1rem;
+    border-radius: 2rem;
+    margin-left: -13.2rem;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.box img
+{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+.edited
+{
+    position: absolute;
+    font-size: rem;
+    height: 2rem;
+    width: 21rem;
+    border: none;
+}
+.save
+{
+    position: absolute;
+    margin-left: 22rem;
+    border-radius: 0.7rem;
+    font-family: 'Tilt Neon';
+    cursor: pointer;
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+    background: linear-gradient(-45deg,#571845,#25040d);
+    color: #fff;
+    
+    z-index: 3;
+}

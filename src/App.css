@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+span
+{
+  color: #571845;
+}
+li
+{
+  margin-top: 3rem;
+  list-style: none;
+}
+.App {
+  text-align: center;
+}
+.logo
+{
+  font-size: 6rem;
+  background: linear-gradient(-45deg,#571845,#25040d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Young serif';
+}
+.input
+{
+  font-size: 2rem;
+  width: 35rem;
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 5rem;
+  border: none;
+  font-family: 'Tilt Neon';
+}
+.add
+{
+  font-size: 2rem;
+  margin-left: 5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1.3rem;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(-45deg,#571845,#25040d);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+h1
+{
+  text-align: center;
+  font-family: 'Young serif';
+  background: linear-gradient(-45deg,#571845,#25040d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 5rem;
+  margin-top: 20rem;
+  color: #ffffff;
+}
+.lists
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  margin-bottom: 5rem;
+}
+.Tasks
+{
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #fff;
+  height: 30rem;
+  width: 35rem;
+  border-radius: 3rem;
+}
+.Completed_Tasks
+{
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #fff;
+  margin-left: 10rem;
+  height: 30rem;
+  width: 35rem;
+  border-radius: 3rem;
+}
+.head1
+{
+  margin-left: 13rem;
+  font-size: 1.8rem;
+  font-family: 'Indie Flower';
+  font-weight: bolder;
+  position: absolute;
+  background: linear-gradient(-45deg,#571845,#25040d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  z-index: 2;
+}  
+.head2
+{
+  margin-left: 12rem;
+  position: absolute;
+  font-size: 1.8rem;
+  font-family: 'Indie Flower';
+  font-weight: bolder;
+  background: linear-gradient(-45deg,#571845,#25040d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  z-index: 2;
+}  
+.box1
+{
+  position: absolute;
+  background-color: #fff;
+  width: 35rem;
+  height: 5rem;
+  border-top-right-radius: 2.9rem;
+  border-top-left-radius: 2.9rem;
+  z-index: 1;
+}
+.box2
+{
+  position: absolute;
+  background-color: #fff;
+  width: 35rem;
+  height: 5rem;
+  border-top-right-radius: 2.9rem;
+  border-top-left-radius: 2.9rem;
+  z-index: 1;
+}
+.Tasks::-webkit-scrollbar
+{
+  overflow: hidden;
+}
+.Tasks::-webkit-scrollbar-thumb
+{
+  height: 5rem;
+}
+.Completed_Tasks::-webkit-scrollbar
+{
+  overflow: hidden;
+}
+.Completed_Tasks::-webkit-scrollbar-thumb
+{
+  height: 5rem;
+}
+.list1
+{
+  margin-top: 8rem;
+}
+.list2
+{
+  margin-top: 4rem;
+}
